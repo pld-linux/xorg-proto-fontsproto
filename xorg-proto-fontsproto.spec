@@ -1,5 +1,3 @@
-# $Rev: 3232 $, $Date: 2005-08-15 12:17:57 $
-#
 Summary:	Fonts protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Fonts i pomocnicze
 Name:		xorg-proto-fontsproto
@@ -14,7 +12,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	pkg-config
 BuildRequires:	xorg-util-util-macros
-BuildRoot:	%{tmpdir}/fontsproto-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 
@@ -23,7 +21,6 @@ Fonts protocol and ancillary headers.
 
 %description -l pl
 Nag³ówki protoko³u Fonts i pomocnicze.
-
 
 %package devel
 Summary:	Fonts protocol and ancillary headers
@@ -37,10 +34,8 @@ Fonts protocol and ancillary headers.
 %description devel -l pl
 Nag³ówki protoko³u Fonts i pomocnicze.
 
-
 %prep
 %setup -q -n fontsproto-%{version}
-
 
 %build
 %{__aclocal}
@@ -50,7 +45,6 @@ Nag³ówki protoko³u Fonts i pomocnicze.
 
 %{__make}
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
@@ -58,10 +52,8 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	pkgconfigdir=%{_pkgconfigdir}
 
-
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files devel
 %defattr(644,root,root,755)
