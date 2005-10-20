@@ -55,5 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
+%dir %{_includedir}/X11/fonts
 %{_includedir}/X11/fonts/*.h
 %{_pkgconfigdir}/fontsproto.pc
