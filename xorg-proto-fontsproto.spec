@@ -1,12 +1,12 @@
 Summary:	Fonts protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Fonts i pomocnicze
 Name:		xorg-proto-fontsproto
-Version:	2.0
-Release:	0.03
+Version:	2.0.1
+Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/proto/fontsproto-%{version}.tar.bz2
-# Source0-md5:	8ff6548d1c31975b832ecd4a7e7ede3d
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/fontsproto-%{version}.tar.bz2
+# Source0-md5:	ec23e17f0cb54b15ff31e846704c849f
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
