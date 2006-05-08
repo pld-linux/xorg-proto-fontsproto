@@ -6,7 +6,7 @@ Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/fontsproto-%{version}.tar.bz2
-# Source0-md5:	e2ca22df3a20177f060f04f15b8ce19b
+# Source0-md5:	c946f166107b016a21cc7a02e1132724
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
