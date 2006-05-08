@@ -5,7 +5,7 @@ Version:	2.0.2
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/fontsproto-X11R7.0-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/proto/fontsproto-%{version}.tar.bz2
 # Source0-md5:	e2ca22df3a20177f060f04f15b8ce19b
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
