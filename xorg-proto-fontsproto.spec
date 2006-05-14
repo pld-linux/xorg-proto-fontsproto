@@ -32,7 +32,7 @@ Fonts protocol and ancillary headers.
 Nag³ówki protoko³u Fonts i pomocnicze.
 
 %prep
-%setup -q -n fontsproto-X11R7.0-%{version}
+%setup -q -n fontsproto-%{version}
 
 %build
 %{__aclocal}
