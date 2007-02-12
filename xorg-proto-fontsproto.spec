@@ -1,5 +1,5 @@
 Summary:	Fonts protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 Fonts i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u Fonts i pomocnicze
 Name:		xorg-proto-fontsproto
 Version:	2.0.2
 Release:	1
@@ -16,20 +16,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Fonts protocol and ancillary headers.
 
-%description -l pl
-Nag丑wki protoko硊 Fonts i pomocnicze.
+%description -l pl.UTF-8
+Nag艂贸wki protoko艂u Fonts i pomocnicze.
 
 %package devel
 Summary:	Fonts protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 Fonts i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u Fonts i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
 Fonts protocol and ancillary headers.
 
-%description devel -l pl
-Nag丑wki protoko硊 Fonts i pomocnicze.
+%description devel -l pl.UTF-8
+Nag艂贸wki protoko艂u Fonts i pomocnicze.
 
 %prep
 %setup -q -n fontsproto-%{version}
