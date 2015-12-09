@@ -58,7 +58,10 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog README specs/fsproto.html
 %dir %{_includedir}/X11/fonts
-%{_includedir}/X11/fonts/FS*.h
-%{_includedir}/X11/fonts/font*.h
+%{_includedir}/X11/fonts/FS.h
+%{_includedir}/X11/fonts/FSproto.h
+%{_includedir}/X11/fonts/font.h
+%{_includedir}/X11/fonts/fontproto.h
+%{_includedir}/X11/fonts/fontstruct.h
 %{_includedir}/X11/fonts/fsmasks.h
 %{_pkgconfigdir}/fontsproto.pc
