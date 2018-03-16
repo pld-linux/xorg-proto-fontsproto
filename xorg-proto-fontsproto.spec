@@ -1,13 +1,14 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	Fonts extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia Fonts
 Name:		xorg-proto-fontsproto
 Version:	2.1.3
-Release:	2
+Release:	2.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/individual/proto/fontsproto-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/proto/fontsproto-%{version}.tar.bz2
 # Source0-md5:	36934d00b00555eaacde9f091f392f97
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	docbook-dtd43-xml
